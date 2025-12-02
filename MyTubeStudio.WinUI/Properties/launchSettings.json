@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "MyTubeStudio.WinUI (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "MyTubeStudio.WinUI (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="MyTubeStudio.Console/MyTubeStudio.Console.csproj" />
+  <Project Path="MyTubeStudio.WinUI/MyTubeStudio.WinUI.csproj">
+    <Platform Project="x64" />
+    <Deploy />
+  </Project>
+  <Project Path="MyTubeStudio.YouTube/MyTubeStudio.YouTube.csproj" />
+</Solution>
