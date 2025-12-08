@@ -26,6 +26,7 @@ static void OutputMetadata(VideoMetadata metadata)
     Console.WriteLine($"Id: {metadata.Id}");
     Console.WriteLine($"Url: {metadata.Url}");
     Console.WriteLine($"Title: {metadata.Title}");
+    Console.WriteLine($"Sanitized Title: {metadata.SanitizedTitle}");
     Console.WriteLine($"Channel: {metadata.Channel}");
     Console.WriteLine($"Upload Date: {metadata.UploadDate}");
     Console.WriteLine($"Duration: {metadata.Duration}");

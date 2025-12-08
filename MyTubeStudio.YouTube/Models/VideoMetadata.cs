@@ -1,4 +1,6 @@
-﻿namespace MyTubeStudio.YouTube.Models;
+﻿using YoutubeExplode.Videos;
+
+namespace MyTubeStudio.YouTube.Models;
 
 public class VideoMetadata
 {
@@ -12,6 +14,9 @@ public class VideoMetadata
     public required string Title { get; init; }
     public required DateTimeOffset UploadDate { get; init; }
     public required string Url { get; init; }
+
+    // Sanitized video title with invalid characters removed from the file name.
+    public string SanitizedTitle => string.Join("_", Title.Split(Path.GetInvalidFileNameChars()));
 
     public override string ToString() => $"Video ({Title})";
 }
